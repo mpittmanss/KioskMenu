@@ -1,0 +1,8 @@
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\bin\Debug\KioskMenu.exe.config
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\bin\Debug\KioskMenu.exe
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\bin\Debug\KioskMenu.pdb
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csprojAssemblyReference.cache
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.Properties.Resources.resources
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csproj.GenerateResource.cache
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.exe
+C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.pdb
