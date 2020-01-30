@@ -45,3 +45,11 @@ C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\bin\Debug\ru\DevExpress.Pdf.v19
 C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.Form1.resources
 C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.exe.licenses
 C:\Developing\Kiosk Projects\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csproj.CopyComplete
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csprojAssemblyReference.cache
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.Form1.resources
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.Properties.Resources.resources
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csproj.GenerateResource.cache
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.exe.licenses
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.csproj.CoreCompileInputs.cache
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.exe
+T:\JAM\KioskMenu\KioskMenu\obj\Debug\KioskMenu.pdb
