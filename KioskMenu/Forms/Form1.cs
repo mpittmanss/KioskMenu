@@ -68,20 +68,20 @@ namespace KioskMenu
 
         private void btnnext_Click(object sender, EventArgs e)
         {
-            if (imgindex < listBox1.Items.Count - 1)
+            if (ImgIndex < listBox1.Items.Count - 1)
             {
-                imgindex += 1;
-                if (imgindex == listBox1.Items.Count - 1)
-                    btnnext.Enabled = false;
-                if (imgindex > 0)
-                    btnprev.Enabled = true;
-                listBox1.SelectedIndex = imgindex;
+                ImgIndex += 1;
+                if (ImgIndex == listBox1.Items.Count - 1)
+                    btnNext.Enabled = false;
+                if (ImgIndex > 0)
+                    btnPrevious.Enabled = true;
+                listBox1.SelectedIndex = ImgIndex;
             }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            btnnext.PerformClick();
+            btnNext.PerformClick();
         }
     }
 }
