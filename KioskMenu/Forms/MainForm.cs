@@ -17,6 +17,8 @@ namespace KioskMenu.Forms
         public MainForm()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
         }  
 
         private void btnPhotoBoothCode_Click(object sender, EventArgs e)
@@ -79,6 +81,27 @@ namespace KioskMenu.Forms
             {
                 MessageBox.Show("Incorrect Password");
             }
+        }
+
+        private void MainForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control)
+            {
+                SlideShowConfig form = new SlideShowConfig();
+                form.ShowDialog();
+            }
+        }
+
+        private void btnSlideShow_Click(object sender, EventArgs e)
+        {
+            SlideShow slideShow = new SlideShow();
+            slideShow.ShowDialog();
+        }
+
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            SlideShowConfig form = new SlideShowConfig();
+            form.ShowDialog();
         }
     }
 }
