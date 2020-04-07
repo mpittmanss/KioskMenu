@@ -88,7 +88,6 @@ D:\GitHub\KioskMenu\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
 D:\GitHub\KioskMenu\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
 D:\GitHub\KioskMenu\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.csprojAssemblyReference.cache
-D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Forms.MainForm.resources
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Properties.Resources.resources
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Resources.Images.resources
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.csproj.GenerateResource.cache
@@ -96,6 +95,9 @@ D:\GitHub\KioskMenu\obj\Debug\KioskMenu.exe.licenses
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.csproj.CopyComplete
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.exe
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.pdb
-D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Forms.SlideShow.resources
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.SlideShowConfig.resources
 D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Resources.SlideShowResources.resources
+D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Forms.frmMainForm.resources
+D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Forms.frmSlideShow.resources
+D:\GitHub\KioskMenu\obj\Debug\KioskMenu.Forms.frmCodeSnippet.resources
+D:\GitHub\KioskMenu\obj\Debug\KioskMenu.csproj.CoreCompileInputs.cache

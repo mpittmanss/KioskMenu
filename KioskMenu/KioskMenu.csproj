@@ -59,25 +59,31 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\ActivityTimer.cs" />
-    <Compile Include="Forms\SlideShowConfig.cs">
+    <Compile Include="Classes\UserActivity.cs" />
+    <Compile Include="Forms\frmCodeSnippet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SlideShowConfig.Designer.cs">
-      <DependentUpon>SlideShowConfig.cs</DependentUpon>
+    <Compile Include="Forms\frmCodeSnippet.Designer.cs">
+      <DependentUpon>frmCodeSnippet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MainForm.cs">
+    <Compile Include="Forms\frmSlideShowConfig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="Forms\frmSlideShowConfig.Designer.cs">
+      <DependentUpon>frmSlideShowConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMainForm.Designer.cs">
+      <DependentUpon>frmMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Prompt.cs" />
-    <Compile Include="Forms\SlideShow.cs">
+    <Compile Include="Forms\frmSlideShow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SlideShow.Designer.cs">
-      <DependentUpon>SlideShow.cs</DependentUpon>
+    <Compile Include="Forms\frmSlideShow.Designer.cs">
+      <DependentUpon>frmSlideShow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,14 +97,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SlideShowResources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\SlideShowConfig.resx">
-      <DependentUpon>SlideShowConfig.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCodeSnippet.resx">
+      <DependentUpon>frmCodeSnippet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSlideShowConfig.resx">
+      <DependentUpon>frmSlideShowConfig.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SlideShow.resx">
-      <DependentUpon>SlideShow.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmMainForm.resx">
+      <DependentUpon>frmMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSlideShow.resx">
+      <DependentUpon>frmSlideShow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -133,6 +142,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sandhills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\GameButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\MapButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\MapButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PhotoButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PhotoButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CodeButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CodeButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\GameButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\MapButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PhotoButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\CodeButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\GameButton3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
